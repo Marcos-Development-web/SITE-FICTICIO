@@ -42,7 +42,7 @@ a{
     font-weight: 700;
 }
 
-span #button {
+span .button-text{
     font-weight: 100;
 }
 
