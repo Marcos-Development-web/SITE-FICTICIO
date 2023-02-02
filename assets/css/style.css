@@ -79,7 +79,7 @@ header{
 
 /*.content  ggradient ( #e6c9f2 #f1d8ef #f9e9eb #fbf0ee # #fdfaf7*/
 .content{
-    background: #fdfcf9;
+    background-image: radial-gradient(at top left, #ebcbf7 0%, #f9e9ec 15%, #fdfcf9 30%);
     display: flex;
     justify-content: space-between;
     align-items: center;
