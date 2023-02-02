@@ -42,11 +42,11 @@ a{
     font-weight: 700;
 }
 
-span.button {
+span > .button {
     font-weight: 100;
 }
 
-span.number {
+span .number {
     color:  #6600cc;
 }
 
