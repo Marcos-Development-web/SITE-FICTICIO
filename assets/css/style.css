@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100vh;
+    
+    font-family: 'DM Sans', sans-serif;
+    background: #fff;
+
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #191919;
+}
+
+.button{
+    background: #6600cc;
+    color: #fff;
+    padding: 10px;
+
+    border-radius: 5px;
+    border: none;
+
+    text-align: center;
+}
+
+.button a{
+    color: #fff;
+    font-weight: 700;
+}
+
+span.button {
+    font-weight: 100;
+}
+
+span.number {
+    color:  #6600cc;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li a{
+    display: block;
+    margin: 20px;
+    gap: 20px;
+}
+
+
+/*.content  ggradient ( #e6c9f2 #f1d8ef #f9e9eb #fbf0ee # #fdfaf7*/
+.content{
+    background: #fdfcf9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90%;
+    height: 90vh;
+    margin: 0px auto 70px; 
+}
+
+.content .text{
+    width: 50%;
+}
+
+.content h1{
+    font-size: 3em;
+    padding-bottom: 30px;
+}
+
+.content p{
+    font-size: 1em;
+    width: 85%;
+    padding-bottom: 30px;
+}
+
+.content button{
+    width: 30%;
+    margin-bottom: 10px;
+    font-size: .9em;
+}
+
+.content .text img{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.content .image{
+   width: 50%;
+}
+
+.content-principal-img img{
+    width: 50%;
+}
+
+/* ============c=c=c=c==c=c=c==c=c=c==c=c=c=c==c*/
+
+main{
+    width: 90%;
+    margin: 0px auto; 
+    height: 90vh;
+}
+
+main img{
+    width: 30%;
+    display: initial;
+}
+
+.section1{
+    display: flex;
+}
+
+section .content-principal-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .content-principal-text p{
+    width: 300px;
+    flex-direction: column;
+}
+
+section .content-principal-text-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2{
+    display: flex;
+}
